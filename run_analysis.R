@@ -107,4 +107,4 @@ aa<-paste(c("select ",aa," from extract_mean_std_data_all group by subject_id, a
 
 final_data<-sqldf(aa)  #Create the final aggregated dataset using SQL created above
 rm(aa)  #Remove the "aa" object
-write.table(final_data, file="final_data.txt")  #Write out the final dataset
+write.table(final_data, file="final_data.txt", row.name=FALSE)  #Write out the final dataset
