@@ -21,7 +21,11 @@ Codebook - Coursera project - Jeff Hedberg
 	Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 =============
 
-List of the features, as well as the description of the base data that the aggregates were created from is displayed below. Columns 1-79 have the prefix of "avg_", since they are all averages of the measurement values for each grouping variable combination.  The grouping variables are in columns 80-81, and are "subject_id", and "activity_name" respectively.  Additional information on the base smartphone raw dataset can be found at the bottom of this document.  The dataset has a size of 81 x 180  (6 activities and 30 subjects for each of 79 measurements +2 grouping variables).
+List of the features, as well as the description of the base data that the aggregates were created from is displayed below. 
+Columns 1-79 have the prefix of "avg_", since they are all averages of the measurement values for each grouping variable combination.  
+The grouping variables are in columns 80-81, and are "subject_id", and "activity_name" respectively.  
+Additional information on the base smartphone raw dataset can be found at the bottom of this document.  
+The dataset has a size of 81 x 180  (6 activities and 30 subjects for each of 79 measurements +2 grouping variables).
 
 1	avg_tBodyAcc_mean_X
 2	avg_tBodyAcc_mean_Y
