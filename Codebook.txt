@@ -21,16 +21,97 @@ Codebook - Coursera project - Jeff Hedberg
 	Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 =============
 
-Description of features
+List of the features, as well as the description of the base data that the aggregates were created from is displayed below. Columns 1-79 have the prefix of "avg_", since they are all averages of the measurement values for each grouping variable combination.  The grouping variables are in columns 80-81, and are "subject_id", and "activity_name" respectively.  Additional information on the base smartphone raw dataset can be found at the bottom of this document.  The dataset has a size of 81 x 180  (6 activities and 30 subjects for each of 79 measurements +2 grouping variables).
 
+1	avg_tBodyAcc_mean_X
+2	avg_tBodyAcc_mean_Y
+3	avg_tBodyAcc_mean_Z
+4	avg_tBodyAcc_std_X
+5	avg_tBodyAcc_std_Y
+6	avg_tBodyAcc_std_Z
+7	avg_tGravityAcc_mean_X
+8	avg_tGravityAcc_mean_Y
+9	avg_tGravityAcc_mean_Z
+10	avg_tGravityAcc_std_X
+11	avg_tGravityAcc_std_Y
+12	avg_tGravityAcc_std_Z
+13	avg_tBodyAccJerk_mean_X
+14	avg_tBodyAccJerk_mean_Y
+15	avg_tBodyAccJerk_mean_Z
+16	avg_tBodyAccJerk_std_X
+17	avg_tBodyAccJerk_std_Y
+18	avg_tBodyAccJerk_std_Z
+19	avg_tBodyGyro_mean_X
+20	avg_tBodyGyro_mean_Y
+21	avg_tBodyGyro_mean_Z
+22	avg_tBodyGyro_std_X
+23	avg_tBodyGyro_std_Y
+24	avg_tBodyGyro_std_Z
+25	avg_tBodyGyroJerk_mean_X
+26	avg_tBodyGyroJerk_mean_Y
+27	avg_tBodyGyroJerk_mean_Z
+28	avg_tBodyGyroJerk_std_X
+29	avg_tBodyGyroJerk_std_Y
+30	avg_tBodyGyroJerk_std_Z
+31	avg_tBodyAccMag_mean
+32	avg_tBodyAccMag_std
+33	avg_tGravityAccMag_mean
+34	avg_tGravityAccMag_std
+35	avg_tBodyAccJerkMag_mean
+36	avg_tBodyAccJerkMag_std
+37	avg_tBodyGyroMag_mean
+38	avg_tBodyGyroMag_std
+39	avg_tBodyGyroJerkMag_mean
+40	avg_tBodyGyroJerkMag_std
+41	avg_fBodyAcc_mean_X
+42	avg_fBodyAcc_mean_Y
+43	avg_fBodyAcc_mean_Z
+44	avg_fBodyAcc_std_X
+45	avg_fBodyAcc_std_Y
+46	avg_fBodyAcc_std_Z
+47	avg_fBodyAcc_meanFreq_X
+48	avg_fBodyAcc_meanFreq_Y
+49	avg_fBodyAcc_meanFreq_Z
+50	avg_fBodyAccJerk_mean_X
+51	avg_fBodyAccJerk_mean_Y
+52	avg_fBodyAccJerk_mean_Z
+53	avg_fBodyAccJerk_std_X
+54	avg_fBodyAccJerk_std_Y
+55	avg_fBodyAccJerk_std_Z
+56	avg_fBodyAccJerk_meanFreq_X
+57	avg_fBodyAccJerk_meanFreq_Y
+58	avg_fBodyAccJerk_meanFreq_Z
+59	avg_fBodyGyro_mean_X
+60	avg_fBodyGyro_mean_Y
+61	avg_fBodyGyro_mean_Z
+62	avg_fBodyGyro_std_X
+63	avg_fBodyGyro_std_Y
+64	avg_fBodyGyro_std_Z
+65	avg_fBodyGyro_meanFreq_X
+66	avg_fBodyGyro_meanFreq_Y
+67	avg_fBodyGyro_meanFreq_Z
+68	avg_fBodyAccMag_mean
+69	avg_fBodyAccMag_std
+70	avg_fBodyAccMag_meanFreq
+71	avg_fBodyBodyAccJerkMag_mean
+72	avg_fBodyBodyAccJerkMag_std
+73	avg_fBodyBodyAccJerkMag_meanFreq
+74	avg_fBodyBodyGyroMag_mean
+75	avg_fBodyBodyGyroMag_std
+76	avg_fBodyBodyGyroMag_meanFreq
+77	avg_fBodyBodyGyroJerkMag_mean
+78	avg_fBodyBodyGyroJerkMag_std
+79	avg_fBodyBodyGyroJerkMag_meanFreq
+80	subject_id
+81	activity_name
 
-
-
-
-
-
-
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This is sourced from 	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+			http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Description of Base data that was used to create the aggregated dataset described above:
 =================
 
